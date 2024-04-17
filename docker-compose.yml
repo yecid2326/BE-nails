@@ -1,0 +1,17 @@
+# version: "1"
+# services:
+#   web:
+#     image: node:14
+#     working_dir: /app/src
+#     volumes:
+#       - ./:/app/src
+#     ports: ["4001:4001"]
+#     command:
+#       - npm install bcrypt
+#       - npm run dev
+---
+version: '3.1'
+services:
+  app:
+  nginx:
+  db:
