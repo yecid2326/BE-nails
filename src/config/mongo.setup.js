@@ -11,7 +11,7 @@ const createDefaultUsers = async () => {
 
     try {
         const count = await UserModel.estimatedDocumentCount();
-
+    
         if( count > 0 ) return;
 
         // Crea usuarios por defecto
